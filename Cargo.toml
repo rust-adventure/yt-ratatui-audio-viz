@@ -1,0 +1,23 @@
+[package]
+name = "pngtubers"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bytemuck = "1.13.1"
+clap = { version = "4.3.19", features = ["derive", "env"] }
+cpal = "0.15.2"
+crossterm = "0.27.0"
+env_logger = "0.10.0"
+hound = "3.5.0"
+miette = { version = "5.10.0", features = ["fancy"] }
+ratatui = { version = "0.22.0", features = ["all-widgets"] }
+rustfft = "6.1.0"
+thiserror = "1.0.44"
+tokio = { version = "1.29.1", features = ["full"] }
+tracing = "0.1.37"
+tracing-subscriber = { version = "0.3.17", features = ["fmt"] }
+wgpu = "0.17.0"
+winit = "0.28.6"
